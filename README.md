@@ -1,3 +1,3 @@
 # Scripts for Fun-code
-Extract file names.py
+Sort files into folders write readme format script title.py
 
