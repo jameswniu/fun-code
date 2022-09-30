@@ -16,6 +16,9 @@ def clean_script_name(content):
         title = re.sub(r'\b{}\b'.format(k), f'{v}', title)
         title = re.sub(r'\b{}\b'.format(k.capitalize()), f'{v}', title)
 
+        title = re.sub(r'\b{}s\b'.format(k), f'{v}s', title)
+        title = re.sub(r'\b{}s\b'.format(k.capitalize()), f'{v}s', title)
+
     for letter in letter_l:
         title = re.sub(r'\b{}\b'.format(letter), letter.upper(), title)
 
@@ -71,6 +74,10 @@ abbv = {
     , 'barplot': 'Barplot'
     , 'us': 'US'
     , 'nyc': 'NYC'
+    , 'pic': 'picture'
+    , 'exe': 'Exe'
+    , 'dup': 'duplicate'
+    , 'pdf': 'PDF'
 }
 
 letter_l = list(string.ascii_lowercase)
