@@ -78,6 +78,7 @@ abbv = {
     , 'exe': 'Exe'
     , 'dup': 'duplicate'
     , 'pdf': 'PDF'
+    , 'desktop': 'Desktop'
 }
 
 letter_l = list(string.ascii_lowercase)
